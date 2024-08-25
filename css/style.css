@@ -1,0 +1,197 @@
+
+ #draggable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+}
+ #draggable1 { 
+  width: 100px; 
+  height: 100px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px 10px 10px 0; 
+}
+/*droppable*/
+  #droppable { 
+    width: 150px; 
+    height: 150px;
+    padding: 0.5em;
+    float: left; 
+    margin: 10px; 
+  }
+/*  resizable*/
+   #resizable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; }
+  #resizable p { 
+    text-align: center; 
+    margin: 0; 
+  }
+  .section1{
+    margin-bottom: 200px;
+  }
+
+/*  resizable animate*/
+  #resizable1 { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; }
+  #resizable1 p { 
+    text-align: center; 
+    margin: 0; 
+  }
+  .ui-resizable-helper { border: 1px dotted black; }
+
+/*  resizable content*/
+  #container { width: 300px; height: 300px; }
+  #container p { text-align: center; margin: 0; margin-bottom: 10px; }
+  #resizable2 { background-position: top left; width: 150px; height: 150px; }
+  #resizable2, #container { padding: 0.5em; }
+/*  resizable gride content*/
+  #resizable3 { width: 150px; height: 150px; padding: 0.5em; }
+  #resizable3 p { text-align: center; margin: 0; }
+
+/*  resizable gost content*/
+  #resizable4 { width: 150px; height: 150px; padding: 0.5em; }
+  #resizable4 p { text-align: center; margin: 0; }
+  .ui-resizable-ghost { border: 1px dotted gray; }
+
+
+/*  selectable content*/
+  #feedback { font-size: 1.2em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { 
+    margin: 10px; 
+    padding: 0.4em; 
+    font-size: 1.4em; 
+    height: 40px; 
+    align-items: center;
+
+  }
+/*  Sortable*/
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { 
+    margin: 10px; 
+    padding: 0.4em; 
+    padding-left: 1.5em; 
+    font-size: 1.4em; 
+    height: 40px; 
+    background-color: skyblue;
+    border-color: skyblue;
+  }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+
+/*  Accordion Fill */
+  #accordion-resizer {
+    padding: 10px;
+    width: 350px;
+    height: 220px;
+  }
+
+  /* autocomplete */
+  input{
+    background-color: skyblue;
+  
+  }
+  label{
+    background-color: skyblue;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
+  /*  Controlgroup */
+    .ui-controlgroup-vertical {
+      width: 150px;
+    }
+    .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+    .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+      text-align: center;
+    }
+    #car-type-button {
+      width: 120px;
+    }
+    .ui-controlgroup-horizontal .ui-spinner-input {
+      width: 20px;
+    }
+    fieldset {
+      border: 0;
+    }
+    #label1 {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+    #red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+  }
+  #swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+  }
+  #red .ui-slider-range { background: #ef2929; }
+  #red .ui-slider-handle { border-color: #ef2929; }
+  #green .ui-slider-range { background: #8ae234; }
+  #green .ui-slider-handle { border-color: #8ae234; }
+  #blue .ui-slider-range { background: #729fcf; }
+  #blue .ui-slider-handle { border-color: #729fcf; }
+  
+ /*  Tabs */
+
+  .section5{
+    margin-bottom: 30px;
+  }
+   .section6{
+    margin-bottom: 40px;
+  }
+
+
+ /*  Tooltip */
+    #label10 {
+    display: inline-block;
+    width: 5em;
+  }
+ /*  AddClass */
+    .toggler { width: 700px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 400px;  padding: 1em; border: 1px solid #000; background: #eee; color: #333; }
+    .newClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 120px; padding: 30px; margin: 10px; font-size: 1.1em; }
+
+ /*  Color Animation*/
+    .toggler { width: 700px; height: 200px; position: relative; }
+    #button1 { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 400px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+ /*  Toggle*/
+
+  .toggler1 {
+    width: 500px;
+    height: 200px;
+  }
+  #button2 {
+    padding: .5em 1em;
+    text-decoration: none;
+  }
+  #effect2 {
+    position: relative;
+    width: 240px;
+    height: 170px;
+    padding: 0.4em;
+  }
+  #effect2 h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+  }
+

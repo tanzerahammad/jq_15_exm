@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JQuery15 Exm</title>
+ 
+  <!-- css links -->
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  
+  <div class="container">
+    <h2>1.Draggable content</h2>
+    <div id="draggable" class="ui-widget-content">
+      <p>Drag me around</p>
+    </div>
+  </div>
+  <section class="section1 container">
+   <h2>2.Droppable content</h2>
+   <div id="draggable1" class="ui-widget-content">
+    <p id="loren">Drag me to my target</p>
+  </div>
+
+  
+  <div id="droppable" class="ui-widget-header">
+    <p id="loren">Drop here</p>
+  </div>
+</section>
+
+<section class="container">
+  <h2>3.Resizable content</h2>
+  <div id="resizable" class="ui-widget-content">
+    <p class="ui-widget-header">Resizable</p>
+  </div>
+</section>
+<section class="section2 container">
+ <h4>Example-1 Animate Resizable  content</h4>
+ <div id="resizable1" class="ui-widget-content">
+  <p class="ui-widget-header">Animate</p>
+</div>
+</section>
+
+<section class="section3 container">
+ <h4>Example-2 container Resizable  content</h4>
+ <div id="container" class="ui-widget-content">
+  <p class="ui-widget-header">Containment</p>
+  <div id="resizable2" class="ui-state-active">
+    <p class="ui-widget-header">Resizable</p>
+  </div>
+</div>
+</section>
+<section class="section3 container">
+ <h4>Example-3 Snap to grid Resizable  content</h4>
+ <div id="resizable3" class="ui-widget-content">
+  <p class="ui-widget-header">Grid</p>
+</div>
+</section>
+
+<section class="section3 container">
+ <h4>Example-4 Ghost Resizable  content</h4>
+ <div id="resizable4" class="ui-widget-content">
+  <p class="ui-widget-header">Ghost</p>
+</div>
+</section>
+
+<section class="section3 container">
+ <h2>4.Selectable content</h2>
+ <ol id="selectable">
+  <li class="ui-widget-content">Item 1</li>
+  <li class="ui-widget-content">Item 2</li>
+  <li class="ui-widget-content">Item 3</li>
+  <li class="ui-widget-content">Item 4</li>
+  <li class="ui-widget-content">Item 5</li>
+  <li class="ui-widget-content">Item 6</li>
+  <li class="ui-widget-content">Item 7</li>
+</ol>
+</section>
+
+
+
+<section class="section3 container">
+ <h2>5.Sortable content</h2>
+ <ul id="sortable">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+</ul>
+
+
+</section>
+<section class="section3 container">
+ <h2>6.Accordion</h2>
+ <div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+      suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+      mauris vel est.
+    </p>
+    <p>
+      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+      inceptos himenaeos.
+    </p>
+  </div>
+</div>
+</section>
+
+<section class="section3 container">
+ <h4>Example-1 Accordion content</h4>
+ <div id="accordion1">
+  <h3>Section 1</h3>
+  <div>
+    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+  </div>
+</div>
+</section>
+
+<section class="section2 container">
+ <h4>Example-2 Animate Resizable  content</h4>
+ <div id="accordion2">
+  <h3>Section 1</h3>
+  <div>
+    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+  </div>
+</div>
+
+<button id="toggle">Toggle icons</button>
+</section>
+<section class="section2 container">
+ <h4>Example-3 Animate Resizable  content</h4>
+ <p class="docs">Resize the outer container:</p>
+ 
+ <div id="accordion-resizer" class="ui-widget-content">
+  <div id="accordion3">
+    <h3>Section 1</h3>
+    <div>
+      <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+    </div>
+    <h3>Section 2</h3>
+    <div>
+      <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+    </div>
+    <h3>Section 3</h3>
+    <div>
+      <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+      <ul>
+        <li>List item one</li>
+        <li>List item two</li>
+        <li>List item three</li>
+      </ul>
+    </div>
+    <h3>Section 4</h3>
+    <div>
+      <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section2 container">
+  <h2>7. autocomplete</h2>
+  <div class="ui-widget">
+    <label for="tags">Choose your favorite tags </label>
+    <input class="form-control mb-3"  id="tags">
+    <button type="submit mt-3" class="btn bg-success">Submit</button>
+  </div>
+</section>
+
+
+<section class="section2 container">
+  <h2>8. Buttons</h2>
+  <div class="widget">
+    <p>Widget Buttons</p>
+    <button>A button element</button>
+    
+    <input type="submit" value="A submit button">
+    
+    <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+  </div>
+  <p>CSS Buttons<p>
+    <button class="ui-button ui-widget ui-corner-all">A button element</button>
+    
+    <input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+    
+    <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+  </section>
+
+  <section class="section2 container">
+    <h2>9. Checkbox-Radio</h2>
+    <div class="widget">
+      <h4>Checkbox and radio button widgets</h4>
+      
+      <h4>Radio Group</h4>
+      <fieldset>
+        <legend>Select a Location: </legend>
+        <label for="radio-1">New York</label>
+        <input type="radio" name="radio-1" id="radio-1">
+        <label for="radio-2">Paris</label>
+        <input type="radio" name="radio-1" id="radio-2">
+        <label for="radio-3">London</label>
+        <input type="radio" name="radio-1" id="radio-3">
+      </fieldset>
+      
+      <h4>Checkbox</h4>
+      <fieldset>
+        <legend>Hotel Ratings: </legend>
+        <label for="checkbox-1">2 Star</label>
+        <input type="checkbox" name="checkbox-1" id="checkbox-1">
+        <label for="checkbox-2">3 Star</label>
+        <input type="checkbox" name="checkbox-2" id="checkbox-2">
+        <label for="checkbox-3">4 Star</label>
+        <input type="checkbox" name="checkbox-3" id="checkbox-3">
+        <label for="checkbox-4">5 Star</label>
+        <input type="checkbox" name="checkbox-4" id="checkbox-4">
+      </fieldset>
+      
+      <h4>Checkbox nested in label</h4>
+      <fieldset>
+        <legend>Bed Type: </legend>
+        <label for="checkbox-nested-1">2 Double
+          <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+        </label>
+        <label for="checkbox-nested-2">2 Queen
+          <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+        </label>
+        <label for="checkbox-nested-3">1 Queen
+          <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+        </label>
+        <label for="checkbox-nested-4">1 King
+          <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+        </label>
+      </fieldset>
+    </div>
+  </section>
+  <section class="section2 container">
+    <h1>10.Controlgroup</h1>
+    <div class="widget">
+      <fieldset>
+        <legend>Rental Car</legend>
+        <div class="controlgroup">
+          <select id="car-type">
+            <option>Compact car</option>
+            <option>Midsize car</option>
+            <option>Full size car</option>
+            <option>SUV</option>
+            <option>Luxury</option>
+            <option>Truck</option>
+            <option>Van</option>
+          </select>
+          <label for="transmission-standard">Standard</label>
+          <input type="radio" name="transmission" id="transmission-standard">
+          <label for="transmission-automatic">Automatic</label>
+          <input type="radio" name="transmission" id="transmission-automatic">
+          <label for="insurance">Insurance</label>
+          <input type="checkbox" name="insurance" id="insurance">
+          <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+          <input id="horizontal-spinner" class="ui-spinner-input">
+          <button>Book Now!</button>
+        </div>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Rental Car</legend>
+        <div class="controlgroup-vertical">
+          <select>
+            <option>Compact car</option>
+            <option>Midsize car</option>
+            <option>Full size car</option>
+            <option>SUV</option>
+            <option>Luxury</option>
+            <option>Truck</option>
+            <option>Van</option>
+          </select>
+          <label for="transmission-standard-v">Standard</label>
+          <input type="radio" name="transmission-v" id="transmission-standard-v">
+          <label for="transmission-automatic-v">Automatic</label>
+          <input type="radio" name="transmission-v" id="transmission-automatic-v">
+          <label for="insurance-v">Insurance</label>
+          <input type="checkbox" name="insurance" id="insurance-v">
+          <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+          <input id="vertical-spinner" class="ui-spinner-input">
+          <button id="book">Book Now!</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <section class="section4 container">
+
+    <h2>11.Datepicker</h2>
+
+    <p>Date: <input type="text" id="datepicker"></p>
+  </section>
+
+
+  <section class="section4 container">
+
+    <h2>12.Dialog</h2>
+    <div id="dialog">
+      <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    </div>
+  </section>
+  <section class="section4 container">
+    <h2>13.Progressbar</h2>
+    <div id="progressbar"></div>
+  </section>
+
+  <section class="section4 container">
+
+    <h2>14.Selectmenu</h2>
+
+    <div class="demo">
+     
+      <form action="#">
+       
+        <fieldset>
+          <label for="speed">Select a speed</label>
+          <select name="speed" id="speed">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+          </select>
+          
+          <label id="label1" for="files">Select a file</label>
+          <select name="files" id="files">
+            <optgroup label="Scripts">
+              <option value="jquery">jQuery.js</option>
+              <option value="jqueryui">ui.jQuery.js</option>
+            </optgroup>
+            <optgroup label="Other files">
+              <option value="somefile">Some unknown file</option>
+              <option value="someotherfile">Some other file with a very long option text</option>
+            </optgroup>
+          </select>
+          
+          <label id="label1" for="number">Select a number</label>
+          <select name="number" id="number">
+            <option>1</option>
+            <option selected="selected">2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+          </select>
+          
+          <label id="label1" for="salutation">Select a title</label>
+          <select name="salutation" id="salutation">
+            <option disabled="" selected="">Please pick one</option>
+            <option>Mr.</option>
+            <option>Mrs.</option>
+            <option>Dr.</option>
+            <option>Prof.</option>
+            <option>Other</option>
+          </select>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+
+  
+  <section class="section5 container">
+    <h2>15.Colorpicker</h2>
+    <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+      <span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span>
+      Simple Colorpicker
+    </p>
+    
+    <div id="red"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    
+    <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+    
+  </section>
+  
+
+  <!-- js links -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
